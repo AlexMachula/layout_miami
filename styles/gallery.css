@@ -1,7 +1,6 @@
 .gallery__caption {
   margin: 24px 0 40px; }
-
-.gallery__button {
-  margin: 40px auto 0; }
+  .gallery__caption__button {
+    margin: 40px auto 0; }
 
 /*# sourceMappingURL=gallery.css.map */

@@ -6,12 +6,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
-
-.form__item {
-  margin-bottom: 16px; }
-
-.form__input,
-.form__button {
-  width: 100%; }
+  .form__item {
+    margin-bottom: 16px; }
+  .form__input, .form__button {
+    width: 100%; }
 
 /*# sourceMappingURL=form.css.map */

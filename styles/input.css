@@ -7,23 +7,17 @@
   border-radius: 8px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
-
-.input::-webkit-input-placeholder {
-  color: #b9c1ce; }
-
-.input::-moz-placeholder {
-  color: #b9c1ce; }
-
-.input:-ms-input-placeholder {
-  color: #b9c1ce; }
-
-.input::-ms-input-placeholder {
-  color: #b9c1ce; }
-
-.input::placeholder {
-  color: #b9c1ce; }
-
-.input__textarea {
-  height: 144px; }
+  .input::-webkit-input-placeholder {
+    color: #b9c1ce; }
+  .input::-moz-placeholder {
+    color: #b9c1ce; }
+  .input:-ms-input-placeholder {
+    color: #b9c1ce; }
+  .input::-ms-input-placeholder {
+    color: #b9c1ce; }
+  .input::placeholder {
+    color: #b9c1ce; }
+  .input__textarea {
+    height: 144px; }
 
 /*# sourceMappingURL=input.css.map */

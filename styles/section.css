@@ -2,16 +2,19 @@
   padding: 104px calc(50% - 510px);
   position: relative;
   background: white; }
-
-.section__heading {
-  left: 0;
-  right: 0;
-  top: -0.5em;
-  margin: auto; }
-
-@media screen and (max-width: 999px) {
-  .section {
-    padding-left: 20px;
-    padding-right: 20px; } }
+  .section__heading {
+    left: 0;
+    right: 0;
+    top: -0.5em;
+    margin: auto; }
+  @media screen and (max-width: 768px) {
+    .section {
+      padding-top: 64px;
+      padding-left: 20px;
+      padding-right: 20px; } }
+  @media screen and (max-width: 500px) {
+    .section__heading {
+      font-size: 36px;
+      line-height: 36px; } }
 
 /*# sourceMappingURL=section.css.map */

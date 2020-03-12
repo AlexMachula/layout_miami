@@ -2,8 +2,7 @@
   font-weight: bold;
   -webkit-transition: color 0.2s;
   transition: color 0.2s; }
-
-.link:hover {
-  color: #0200ff; }
+  .link:hover {
+    color: #0200ff; }
 
 /*# sourceMappingURL=link.css.map */
