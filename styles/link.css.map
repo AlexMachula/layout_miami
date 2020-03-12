@@ -1,0 +1,1 @@
+{"version":3,"sources":["link.scss"],"names":[],"mappings":"AAEA;EACE,iBAAiB;EACjB,8BAJmB;EAInB,sBAJmB,EAAA;;AAOrB;EACE,cAAc,EAAA","file":"link.css","sourcesContent":["$hover-duration: 0.2s;\n\n.link {\n  font-weight: bold;\n  transition: color $hover-duration;\n}\n\n.link:hover {\n  color: #0200ff;\n}\n"]}
