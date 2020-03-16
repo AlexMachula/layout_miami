@@ -8,6 +8,7 @@
   @media screen and (max-width: 768px) {
     .logo {
       width: 73px;
-      height: 48px; } }
+      height: 48px;
+      margin: 0 auto; } }
 
 /*# sourceMappingURL=logo.css.map */

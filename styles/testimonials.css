@@ -5,8 +5,12 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  @media screen and (max-width: 999px) {
+  @media screen and (max-width: 1080px) {
     .testimonials {
-      grid-template-columns: 280px; } }
+      grid-gap: 48px; } }
+  @media screen and (max-width: 768px) {
+    .testimonials {
+      grid-template-columns: 280px;
+      grid-gap: 48px; } }
 
 /*# sourceMappingURL=testimonials.css.map */

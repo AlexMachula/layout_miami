@@ -19,13 +19,15 @@
     font-size: 24px;
     line-height: 30px;
     margin-bottom: 16px; }
-  @media screen and (max-width: 999px) {
+  @media screen and (max-width: 768px) {
     .info {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column; }
     .info__heading {
-      margin-bottom: 48px; } }
+      margin-bottom: 48px;
+      font-size: 36px;
+      line-height: 36px; } }
 
 /*# sourceMappingURL=info.css.map */

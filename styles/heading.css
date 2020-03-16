@@ -17,5 +17,11 @@
     margin: auto;
     background-image: url(../images/crown.svg);
     background-repeat: no-repeat; }
+  @media screen and (max-width: 768px) {
+    .heading {
+      font-size: 36px;
+      line-height: 36px; }
+    .heading__crown {
+      margin: 0 auto 30px; } }
 
 /*# sourceMappingURL=heading.css.map */

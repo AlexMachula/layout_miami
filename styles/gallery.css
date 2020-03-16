@@ -1,6 +1,10 @@
 .gallery__caption {
   margin: 24px 0 40px; }
-  .gallery__caption__button {
-    margin: 40px auto 0; }
+
+.gallery__button {
+  margin: 40px auto 0; }
+  @media screen and (max-width: 768px) {
+    .gallery__button {
+      width: 280px; } }
 
 /*# sourceMappingURL=gallery.css.map */

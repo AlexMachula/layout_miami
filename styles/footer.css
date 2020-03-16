@@ -13,5 +13,8 @@
     right: 0;
     bottom: 40px;
     margin: 0 auto; }
+  @media screen and (max-width: 768px) {
+    .footer {
+      height: 206px; } }
 
 /*# sourceMappingURL=footer.css.map */
