@@ -57,17 +57,16 @@
     border-bottom: 1px solid white; }
   .header__link:hover {
     color: #9fadc2; }
-  @media screen and (max-width: 1080px) {
+  @media screen and (max-width: 768px) {
+    .header {
+      height: 580px; }
     .header__name {
       position: absolute;
       left: 20px;
       top: 389px;
       font-size: 46px;
       line-height: 40px;
-      letter-spacing: -1px; } }
-  @media screen and (max-width: 768px) {
-    .header {
-      height: 580px; }
+      letter-spacing: -1px; }
     .header__action {
       display: none; }
     .header__top {

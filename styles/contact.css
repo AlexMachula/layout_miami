@@ -6,7 +6,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between; }
   .contact__text {
-    margin: 0 54px;
+    margin: 0 194px 0 54px;
     color: #3e3e3e;
     max-width: 413px;
     display: -webkit-box;
@@ -14,6 +14,8 @@
     display: flex; }
   .contact__info {
     margin-right: 108px; }
+  .contact__adrs {
+    font-family: "Roboto", sans-serif; }
   .contact__names {
     font-size: 14px;
     color: #9fadc2;
@@ -22,6 +24,9 @@
     width: 100%; }
   .contact__link {
     color: #3e3e3e; }
+  @media screen and (max-width: 1080px) {
+    .contact__text {
+      margin-right: 85px; } }
   @media screen and (max-width: 768px) {
     .contact {
       -webkit-box-orient: vertical;

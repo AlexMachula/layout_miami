@@ -18,6 +18,7 @@
   .input::placeholder {
     color: #b9c1ce; }
   .input__textarea {
-    height: 144px; }
+    height: 144px;
+    resize: none; }
 
 /*# sourceMappingURL=input.css.map */
