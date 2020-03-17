@@ -4,9 +4,12 @@
   background-image: url("../images/logo.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  cursor: pointer; }
   @media screen and (max-width: 768px) {
     .logo {
+      position: relative;
+      z-index: 1;
       width: 73px;
       height: 48px;
       margin: 0 auto; } }

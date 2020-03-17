@@ -12,7 +12,8 @@ textarea {
   border-width: 0;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 27px; }
+  line-height: 27px;
+  outline-color: goldenrod; }
 
 a {
   color: #0075ff;

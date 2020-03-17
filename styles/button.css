@@ -1,17 +1,21 @@
 .button {
   display: block;
+  font-size: 16px;
   line-height: 14px;
   font-weight: bold;
   color: #0075ff;
   background-color: white;
   cursor: pointer;
-  padding: 21px 66px;
+  padding: 21px 65px;
   border-radius: 8px;
   border: 2px solid #0075ff;
   -webkit-transition: background-color 0.2s;
-  transition: background-color 0.2s; }
+  transition: background-color 0.2s;
+  outline-color: goldenrod; }
   .button:hover {
     color: white;
-    background-color: #0075ff; }
+    background-color: #0075ff;
+    -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
+            box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46); }
 
 /*# sourceMappingURL=button.css.map */

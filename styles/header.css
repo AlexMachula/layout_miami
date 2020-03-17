@@ -52,10 +52,11 @@
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
     text-transform: uppercase; }
+  .header__link_mobile {
+    color: white;
+    border-bottom: 1px solid white; }
   .header__link:hover {
     color: #9fadc2; }
-  .header__toggler {
-    display: none; }
   @media screen and (max-width: 1080px) {
     .header__name {
       position: absolute;
@@ -82,19 +83,15 @@
       top: 10px;
       left: 23px;
       cursor: pointer; }
-    .header__toggler-label {
-      width: 18px;
-      height: 12px;
-      background-image: url("../images/lines.svg");
-      display: inline-block;
-      position: absolute;
-      right: 23px;
-      top: 41px;
-      cursor: pointer; }
     .header .phone__link {
       display: none; } }
 
 .phone__link {
   color: white; }
+
+.phone__link_mobile {
+  display: block;
+  color: white;
+  padding-top: 28px; }
 
 /*# sourceMappingURL=header.css.map */
